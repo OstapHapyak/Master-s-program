@@ -5,9 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Тестовий Landing Page</title>
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Heatmap.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/heatmapjs@2.0.5/heatmap.min.js"></script>
 </head>
 <body>
 
+    <!-- ===== ТВОЯ СТОРІНКА — НЕ ЗМІНЮЮ ===== -->
     <header>
         <nav class="navbar">
             <div class="logo">MyLanding</div>
@@ -71,6 +75,18 @@
     <footer>
         <p>© 2025 Test Landing. Створено для лабораторної роботи.</p>
     </footer>
+
+    <!-- ========= HEATMAP OVERLAY ========= -->
+    <div id="heatmapContainer"></div>
+
+    <!-- ========= DEV PANEL ========= -->
+    <div id="dev-icon">⚙️</div>
+
+    <div id="dev-panel">
+        <button id="btn-start">Start Recording</button>
+        <button id="btn-show">Show Heatmap</button>
+        <button id="btn-clear">Clear Data</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
