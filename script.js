@@ -63,3 +63,7 @@ document.getElementById("btn-show").onclick = () => {
 document.getElementById("btn-clear").onclick = () => {
     clearHeatmap();
 };
+
+function showAlert() {
+    alert("Кнопка працює!");
+}
