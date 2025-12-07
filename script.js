@@ -1,3 +1,12 @@
+function toggleMenu() {
+    const menu = document.querySelector(".menu");
+    menu.classList.toggle("open");
+}
+
+function showAlert() {
+    alert("Кнопка працює!");
+}
+
 let recording = false;
 
 // Ініціалізація heatmap
@@ -67,3 +76,4 @@ document.getElementById("btn-clear").onclick = () => {
 function showAlert() {
     alert("Кнопка працює!");
 }
+
