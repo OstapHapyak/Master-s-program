@@ -18,13 +18,19 @@
     <a-marker preset="hiro">
       
       <!-- ПРОСТИЙ 3D-ОБʼЄКТ -->
-      <a-box 
-        position="0 0.5 0"
-        rotation="0 45 0"
-        color="brown"
-        scale="0.5 0.5 0.5">
-      </a-box>
+<a-box 
+  position="0 0.5 0"
+  rotation="0 45 0"
+  color="brown"
+  scale="0.5 0.5 0.5"
+  animation__click="property: material.color; 
+                     from: brown; 
+                     to: red; 
+                     startEvents: click;
+                     dur: 300">
+</a-box>
 
+      
     </a-marker>
 
     <!-- CAMERA -->
@@ -33,5 +39,6 @@
   </a-scene>
 </body>
 </html>
+
 
 
